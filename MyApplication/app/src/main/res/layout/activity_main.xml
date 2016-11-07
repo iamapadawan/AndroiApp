@@ -11,30 +11,37 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.theo.myapplication.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Theo et Ahmed les beaux gosses !"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:id="@+id/textView" />
-
     <ImageView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/bff5d074d399bdfec6071e9168398406"
         android:id="@+id/imageView"
-        android:layout_marginTop="63dp"
-        android:layout_below="@+id/textView"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/button"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Helloworld"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:layout_marginTop="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
     <Button
-        android:text="HODOR"
+        android:text="@string/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button"
-        android:layout_below="@+id/imageView"
+        android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp" />
+        android:layout_marginTop="17dp" />
 
 </RelativeLayout>

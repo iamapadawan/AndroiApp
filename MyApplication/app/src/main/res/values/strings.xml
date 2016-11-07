@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Murica</string>
+    <string name="Helloworld">Hello world !</string>
+    <string name="button">HODOR</string>
 </resources>
