@@ -2,4 +2,6 @@
     <string name="app_name">Murica</string>
     <string name="Helloworld">Hello world !</string>
     <string name="button">HODOR</string>
+    <string name="button2">OH HISSE</string>
+    <string name="button3">New activity</string>
 </resources>
