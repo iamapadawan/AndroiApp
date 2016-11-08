@@ -6,17 +6,16 @@ package com.example.theo.myapplication;
 
 public class Bf1Discipline {
 
-    private String id;
+    private String ver;
     private String name;
-    private String shortName;
-    private String copyrights;
+    private String api;
 
-    public String getId() {
-        return id;
+    public String getVer() {
+        return ver;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setVer(String ver) {
+        this.ver = ver;
     }
 
     public String getName() {
@@ -27,19 +26,11 @@ public class Bf1Discipline {
         this.name = name;
     }
 
-    public String getShortName() {
-        return shortName;
+    public String getApi() {
+        return api;
     }
 
-    public void setShortName(String shortName) {
-        this.shortName = shortName;
-    }
-
-    public String getCopyrights() {
-        return copyrights;
-    }
-
-    public void setCopyrights(String copyrights) {
-        this.copyrights = copyrights;
+    public void setApi(String api) {
+        this.api = api;
     }
 }
