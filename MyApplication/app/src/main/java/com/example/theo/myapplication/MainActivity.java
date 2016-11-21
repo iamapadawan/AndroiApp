@@ -48,9 +48,13 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void sendCommand(View view){
+    public void launchAsync(View view){
         Intent intent = new Intent(this, SecondActivity.class);
         startActivity(intent);
+    }
+
+    public void launchService(View view){
+
     }
 
     @Override

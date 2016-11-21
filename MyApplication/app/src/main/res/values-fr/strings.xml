@@ -4,5 +4,6 @@
     <string name="Helloworld">Bonjour le monde !</string>
     <string name="button">HODOR EN FRANCAIS</string>
     <string name="button2">OH HISSE</string>
-    <string name="button3">Nouvelle activitée</string>
+    <string name="button3">Asynchtask</string>
+    <string name="button4">Service</string>
 </resources>
