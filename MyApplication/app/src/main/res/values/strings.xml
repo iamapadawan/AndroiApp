@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Murica</string>
+    <string name="Helloworld">Hello world !</string>
+    <string name="button">HODOR</string>
+    <string name="button2">OH HISSE</string>
+    <string name="button3">Asynchtask</string>
+    <string name="button4">Service</string>
 </resources>
