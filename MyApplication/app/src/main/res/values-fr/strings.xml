@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Amerique</string>
-    <string name="Helloworld">Bonjour le monde !</string>
-    <string name="button">HODOR EN FRANCAIS</string>
-    <string name="button2">OH HISSE</string>
+    <string name="app_name">ranking</string>
+    <string name="Helloworld">Bienvenue sur ranking</string>
+    <string name="loginbutton">Connexion</string>
+    <string name="siginbutton">Inscription</string>
     <string name="button3">Asynchtask</string>
-    <string name="button4">Service</string>
+    <string name="button4">Ajouter Joueur</string>
 </resources>

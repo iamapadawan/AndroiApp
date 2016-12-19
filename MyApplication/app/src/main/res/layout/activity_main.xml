@@ -14,7 +14,7 @@
     <ImageView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/bff5d074d399bdfec6071e9168398406"
+        android:src="@drawable/mainframeimage"
         android:id="@+id/imageView"
         android:layout_marginTop="34dp"
         android:layout_below="@+id/button"
@@ -24,7 +24,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Helloworld"
+        android:text="@string/HomeWord"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:id="@+id/textView"
         android:gravity="center"
@@ -36,19 +36,8 @@
 
 
     <Button
-        android:text="@string/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button2"
-        android:layout_above="@+id/imageView"
-        android:layout_toRightOf="@+id/button"
-        android:layout_toEndOf="@+id/button"
-        android:layout_marginLeft="14dp"
-        android:layout_marginStart="14dp">/
-    </Button>
-
-    <Button
-        android:text="@string/button"
+        android:text="@string/loginbutton"
+        android:onClick="launchSignIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button"
@@ -82,5 +71,17 @@
         android:layout_marginLeft="54dp"
         android:layout_marginStart="54dp"
         android:id="@+id/button4" />
+
+    <Button
+        android:text="@string/siginbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_marginLeft="44dp"
+        android:layout_marginStart="44dp"
+        android:layout_above="@+id/imageView"
+        android:layout_toRightOf="@+id/button3"
+        android:layout_toEndOf="@+id/button3">/
+    </Button>
 
 </RelativeLayout>

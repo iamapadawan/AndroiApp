@@ -14,8 +14,7 @@ public class Bf1Discipline {
         return ver;
     }
 
-    public void setVer(String ver) {
-        this.ver = ver;
+    public void setVer(String ver) {this.ver = ver;
     }
 
     public String getName() {

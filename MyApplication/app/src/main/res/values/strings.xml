@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Murica</string>
-    <string name="Helloworld">Hello world !</string>
-    <string name="button">HODOR</string>
-    <string name="button2">OH HISSE</string>
+    <string name="app_name">ranking</string>
+    <string name="HomeWord">Welcome to ranking an application that assesses gamers performance stats</string>
+    <string name="loginbutton">Login</string>
+    <string name="siginbutton">Sigin</string>
     <string name="button3">Asynchtask</string>
-    <string name="button4">Service</string>
+    <string name="button4">Add Gamer</string>
 </resources>
