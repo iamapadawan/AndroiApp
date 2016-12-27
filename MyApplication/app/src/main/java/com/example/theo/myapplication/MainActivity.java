@@ -38,14 +38,8 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void launchSignIn(View view){
-       // Intent intent = new Intent(this, SecondActivity.class);
-        //startActivity(intent);
-    }
-
-
     public void launchService(View view){
-        Intent intent = new Intent(this, SignUPActivity.class);
+        Intent intent = new Intent(MainActivity.this, ServiceOpenBrowser.class);
         startActivity(intent);
     }
 

@@ -44,10 +44,13 @@ public class HomeScreenActivity extends AppCompatActivity {
         Intent intent = new Intent(HomeScreenActivity.this, JsonParsePlayerSummariesActivity.class);
         startActivity(intent);
     }
-
-    public void launchService(View view){
+    public void launchAddPlayer(View view){
         Intent intent = new Intent(HomeScreenActivity.this, SteamLoginActivity.class);
         startActivity(intent);
+    }
+    public void launchService(View view){
+        Intent intent = new Intent(HomeScreenActivity.this, ServiceOpenBrowser.class);
+        startService(intent);
     }
 
     @Override

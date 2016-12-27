@@ -5,4 +5,5 @@
     <string name="siginbutton">Infos</string>
     <string name="button3">Résumé du joueur</string>
     <string name="button4">Ajouter Joueur(En premier)</string>
+    <string name="ServiceOpenBrowserbutton">En savoir plus sur les API Steam</string>
 </resources>

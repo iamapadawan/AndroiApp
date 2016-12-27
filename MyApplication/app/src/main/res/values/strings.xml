@@ -4,6 +4,7 @@
     <string name="siginbutton">Infos</string>
     <string name="button3">Get player summaries</string>
     <string name="button4">Add Gamer(first to launch)</string>
+    <string name="ServiceOpenBrowserbutton">More details on Steam API</string>
     <string name="title_activity_steam_login">SteamLogin</string>
 
     <!-- Strings related to login -->
