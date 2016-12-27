@@ -1,6 +1,7 @@
 package com.example.theo.myapplication;
 
 import android.os.AsyncTask;
+import android.view.View;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
@@ -16,16 +17,16 @@ import java.util.List;
  * Created by ahmedsalem on 08/11/2016.
  */
 
-public class LoadJSONTask extends AsyncTask<String, Void, Bf1DisciplineReponse>{
+public class LoadSteamIdJsonTask extends AsyncTask<String, Void, SteamIdReponse>{
 
-    public LoadJSONTask(Listener listener) {
+    public LoadSteamIdJsonTask(View.OnClickListener listener) {
 
-        mListener = listener;
+        //mListener = listener;
     }
 
     public interface Listener {
 
-        void onLoaded(List<Bf1Discipline> androidList);
+        void onLoaded(SteamID steamid);
 
         void onError();
     }
@@ -33,13 +34,13 @@ public class LoadJSONTask extends AsyncTask<String, Void, Bf1DisciplineReponse>{
     private Listener mListener;
 
     @Override
-    protected Bf1DisciplineReponse doInBackground(String... strings) {
+    protected SteamIdReponse doInBackground(String... strings) {
         try {
 
             String stringResponse = loadJSON(strings[0]);
             Gson gson = new Gson();
 
-            return gson.fromJson(stringResponse, Bf1DisciplineReponse.class);
+            return gson.fromJson(stringResponse, SteamIdReponse.class);
         } catch (IOException e) {
             e.printStackTrace();
             return null;
@@ -49,11 +50,11 @@ public class LoadJSONTask extends AsyncTask<String, Void, Bf1DisciplineReponse>{
         }
     }
     @Override
-    protected void onPostExecute(Bf1DisciplineReponse response) {
+    protected void onPostExecute(SteamIdReponse response) {
 
         if (response != null) {
 
-            mListener.onLoaded(response.getAndroid());
+            mListener.onLoaded(response.getSteamID());
 
         } else {
 

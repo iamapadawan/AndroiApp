@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">ranking</string>
-    <string name="Helloworld">Bienvenue sur ranking</string>
-    <string name="loginbutton">Connexion</string>
-    <string name="siginbutton">Inscription</string>
-    <string name="button3">Asynchtask</string>
-    <string name="button4">Ajouter Joueur</string>
+    <string name="HomeWord">Bienvenue sur ranking</string>
+    <string name="siginbutton">Infos</string>
+    <string name="button3">Résumé du joueur</string>
+    <string name="button4">Ajouter Joueur(En premier)</string>
 </resources>

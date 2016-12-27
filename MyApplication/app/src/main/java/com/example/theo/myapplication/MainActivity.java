@@ -31,8 +31,6 @@ public class MainActivity extends AppCompatActivity {
 
         btnSignUp.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                // TODO Auto-generated method stub
-
                 Intent intentSignUP = new Intent(getApplicationContext(),
                         SignUPActivity.class);
                 startActivity(intentSignUP);
@@ -41,8 +39,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void launchSignIn(View view){
-        Intent intent = new Intent(this, SecondActivity.class);
-        startActivity(intent);
+       // Intent intent = new Intent(this, SecondActivity.class);
+        //startActivity(intent);
     }
 
 

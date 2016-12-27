@@ -5,8 +5,8 @@ import android.content.Intent;
 import android.os.IBinder;
 import android.widget.Toast;
 
-public class MyService extends Service {
-    public MyService() {
+public class ServiceOpenBrowser extends Service {
+    public ServiceOpenBrowser() {
     }
     @Override
     public IBinder onBind(Intent intent) {

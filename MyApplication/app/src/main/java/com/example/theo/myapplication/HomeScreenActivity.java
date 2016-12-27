@@ -20,17 +20,6 @@ public class HomeScreenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button button = (Button)findViewById(R.id.button);
-
-        // Show toast message when button is clicked
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"Connexion",Toast.LENGTH_LONG).show();
-
-            }
-        });
-
         Button button2 = (Button)findViewById(R.id.button2);
 
         // Show toast message when button is clicked
@@ -38,8 +27,8 @@ public class HomeScreenActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 AlertDialog alertDialog = new AlertDialog.Builder(HomeScreenActivity.this).create();
-                alertDialog.setTitle("REPONSE");
-                alertDialog.setMessage("LA SAUCISSE !!!");
+                alertDialog.setTitle("Soft Version");
+                alertDialog.setMessage("ranking V1.0");
                 alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
@@ -52,12 +41,13 @@ public class HomeScreenActivity extends AppCompatActivity {
     }
 
     public void launchAsync(View view){
-        Intent intent = new Intent(this, SecondActivity.class);
+        Intent intent = new Intent(HomeScreenActivity.this, JsonParsePlayerSummariesActivity.class);
         startActivity(intent);
     }
 
     public void launchService(View view){
-
+        Intent intent = new Intent(HomeScreenActivity.this, SteamLoginActivity.class);
+        startActivity(intent);
     }
 
     @Override
